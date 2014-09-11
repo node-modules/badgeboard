@@ -6,9 +6,9 @@ name: node-modules
 badge_style: flat-square
 
 # meta headers in html
-title:       BadgeBoard
-description: project status at a glance
-keywords:    badgeboard, repo-utils
+title:       node-modules
+description: All about node.js modules like your project 'node_modules' dir
+keywords:    nodejs, node.js, node, node-modules, node_modules, badgeboard
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
