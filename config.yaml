@@ -1,5 +1,5 @@
 # organization name, it's used to get github repo url, also in page title
-name: jshttp
+name: node-modules
 
 # badge style, can be "flat", "flat-square" or ""
 # see http://shields.io/ for details
@@ -13,44 +13,122 @@ keywords:    badgeboard, repo-utils
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
- - on-headers
- - on-finished
- - vary
- - mime-db:
-     node: 0.6   # you can override stuff from db.json here, i.e. node version
+ - fast-path
+ - urllib
+ - zookeeper-watcher
+ - optimized
+ - agentkeepalive
+ - sdk-base
+ - loading
+ - humanize-bytes
+ - hessian.js
+ - byte
+ - qn
+ - utility
+ - mini-logger
+ - error-formatter
+ - restful-client
+ - jsonp-body
+ - java.io
+ - humanize-ms
+ - userauth
+ - dotfile-config
+ - cfork
+ - autod
+ - webcamera
+ - vmto
+ - thunkify-wrap
+ - logfilestream
+ - emoji
+ - charset
+ - pedding
+ - node-murmurhash
+ - is-type-of
+ - phantomtest
+ - fileloader
+ - wt
+ - refresh-config
+ - ab
+ - issue-link
+ - hot-restart
+ - graceful
+ - node-biginteger
+ - buffer-type
+ - treekill
+ - urlencode
+ - copy-to
+ - js-to-java
+ - auto-correct
+ - mdit
+ - cov
+ - binpack.js
+ - digest-header
+ - show-methods
+ - restful-wrap
+ - mm
+ - default-user-agent
+ - back-to-thunk
+ - speeds
+ - sqlstring
+ - connect-rt
+ - weibo
+ - formstream
+ - rid
+ - bugfree
+ - interceptor
+ - weibo-mid
+ - parameter
+ - address
+ - microsecond
+ - cache-dns
+ - mredis
+ - var-style
+ - qnfs
+ - ndir
+ - response-patch
+ - response-cookie
+ - safe-redirect
+ - onehost
+ - node-patch
+ - webcache
+ - jscover
+ - forwards
+ - buffer-concat
+ - cutter
+ - filestore
+ - printable
+ - nab
+ - metaweblog
 
 # list of maintainers, this won't be sorted
 maintainers:
- - name:    Doug Wilson
-   github:  dougwilson   # github account, required: we link to it
-   npm:     dougwilson   # npm account, required to determine lead maintainer
-   twitter: blipsofadoug # twitter account, optional
-   gittip:  dougwilson   # gittub badge, optional
-   email:   doug@somethingdoug.com
+ - name:    fengmk2
+   github:  fengmk2   # github account, required: we link to it
+   npm:     fengmk2   # npm account, required to determine lead maintainer
+   twitter: fengmk2 # twitter account, optional
+   gittip:  fengmk2   # gittub badge, optional
+   email:   fengmk2@gmail.com
 
- - name:    Jonathan Ong
-   github:  jonathanong
-   npm:     jongleberry
-   twitter: jongleberry
-   gittip:  jonathanong
-   email:   me@jongleberry.com
+ - name:    Yiyu He
+   github:  dead-horse
+   npm:     dead_horse
+   twitter: deadhorse_busi
+   gittip:  dead-horse
+   email:   heyiyu.deadhorse@gmail.com
 
-   # if gravatar is attached to an email different from specified above,
-   # add md5 of it here:
-   avatar:  6e33cc0412b61cc01daac23c8989003c
+ - name:    fool2fish
+   github:  fool2fish
+   npm:     fool2fish
+   twitter: fool2fish
+   gittip:  fool2fish
+   email:   fool2fish@gmail.com
 
- - name:    Jeremiah Senkpiel
-   github:  fishrock123
-   npm:     fishrock123
-   twitter: fishrock123
-   gittip:  Fishrock123
-   email:   fishrock123@rocketmail.com
-
- - name:    Alex Kocharin
-   github:  rlidwka
-   npm:     rlidwka
-   twitter: rlidwka
-   email:   alex@kocharin.ru
+ - name:    coolme200
+   github:  coolme200
+   npm:     coolme200
+   twitter: coolme200
+   gittip:  coolme200
+   email:   2001-wms@163.com
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests

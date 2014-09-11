@@ -43,7 +43,7 @@ require('co')(function *() {
 
 //
 // Generators
-// 
+//
 
 function *getNpmInfo(pkg) {
   return JSON.parse(yield get('https://registry.npmjs.org/' + pkg))
@@ -93,8 +93,18 @@ function *getInfoFromNpm() {
     var npm = yield getNpmInfo(project.npm)
     var projectData = data.projects[project.name]
     projectData.description = npm.description
-    projectData.maintainer =
-      npm.versions[npm['dist-tags'].latest]._npmUser.name
+    if (!npm['dist-tags']) {
+      console.error('`%s` not exists', project.name);
+    }
+    var latest = npm.versions[npm['dist-tags'].latest];
+    if (latest._npmUser) {
+      projectData.maintainer = latest._npmUser.name
+    } else if (latest.maintainers && latest.maintainers.length > 0) {
+      projectData.maintainer = latest.maintainers[0].name;
+    } else {
+      // http://registry.npmjs.org/filestore
+      projectData.maintainer = npm.maintainers[0].name;
+    }
   }
 }
 
@@ -132,8 +142,8 @@ function escapeJSON(data) {
 }
 
 function versionSort(a, b) {
-  a = a.split('.')
-  b = b.split('.')
+  a = String(a).split('.')
+  b = String(b).split('.')
   if (a[0] != b[0]) return a[0] - b[0]
   return a[1] - b[1]
 }
