@@ -130,6 +130,13 @@ maintainers:
    gittip:  coolme200
    email:   2001-wms@163.com
 
+ - name:    Haoliang Gao
+   github:  popomore
+   npm:     popomore
+   twitter: popomore
+   gittip:  popomore
+   email:   sakura9515@gmail.com
+
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:
