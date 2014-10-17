@@ -3,6 +3,12 @@
   "//2": "you're free to change it as you like,",
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
+    "alsotang": {
+      "packages": 9
+    },
+    "coderhaoxin": {
+      "packages": 34
+    },
     "coolme200": {
       "packages": 6
     },
@@ -12,8 +18,14 @@
     "fengmk2": {
       "packages": 186
     },
+    "fishbar": {
+      "packages": 2
+    },
     "fool2fish": {
       "packages": 18
+    },
+    "jacksontian": {
+      "packages": 61
     },
     "popomore": {
       "packages": 59
@@ -47,6 +59,10 @@
     "back-to-thunk": {
       "description": "transform generator, generatorFunction, promise and other yieldables back to thunk",
       "maintainer": "dead_horse"
+    },
+    "bc-rsa": {
+      "description": "bc-rsa",
+      "maintainer": "coolme200"
     },
     "binpack.js": {
       "description": "The Javascript implementation of binpack",
@@ -221,7 +237,7 @@
     },
     "logfilestream": {
       "description": "Log file stream, including auto rolling feature, support multiprocess `append` write at the same time. ",
-      "maintainer": "dead_horse",
+      "maintainer": "fengmk2",
       "node": "0.10"
     },
     "mdit": {
@@ -307,7 +323,7 @@
       "maintainer": "dead_horse"
     },
     "qn": {
-      "description": "Another [qiniu](http://docs.qiniu.com/api/) API client for Node.js.",
+      "description": "Another qiniu API client for Node.js.",
       "maintainer": "fengmk2",
       "node": "0.11"
     },
@@ -389,6 +405,11 @@
       "description": "Help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.",
       "maintainer": "fengmk2",
       "node": "0.10"
+    },
+    "urllib-sync": {
+      "description": "sync http request",
+      "maintainer": "dead_horse",
+      "node": "0.11"
     },
     "userauth": {
       "description": "user auth abstraction layer middleware.",

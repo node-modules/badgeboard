@@ -12,93 +12,96 @@ keywords:    nodejs, node.js, node, node-modules, node_modules, badgeboard
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
+# please keep sort by ascii
 projects:
- - fast-path
- - urllib
- - zookeeper-watcher
- - optimized
+ - ab
+ - autod
+ - address
+ - auto-correct
  - agentkeepalive
- - sdk-base
- - loading
+ - byte
+ - bc-rsa
+ - bugfree
+ - binpack.js
+ - buffer-type
+ - buffer-concat
+ - back-to-thunk
+ - cov
+ - cutter
+ - cfork
+ - charset
+ - copy-to
+ - cache-dns
+ - connect-rt
+ - digest-header
+ - dotfile-config
+ - default-user-agent
+ - emoji
+ - error-formatter
+ - forwards
+ - filestore
+ - fast-path
+ - formstream
+ - fileloader
+ - graceful
+ - hot-restart
+ - humanize-ms
  - humanize-bytes
  - hessian.js
- - byte
- - qn
- - utility
- - mini-logger
- - error-formatter
- - restful-client
- - jsonp-body
- - java.io
- - humanize-ms
- - userauth
- - dotfile-config
- - cfork
- - autod
- - webcamera
- - vmto
- - thunkify-wrap
- - logfilestream
- - emoji
- - charset
- - pedding
- - node-murmurhash
  - is-type-of
- - phantomtest
- - fileloader
- - wt
- - refresh-config
- - ab
  - issue-link
- - hot-restart
- - graceful
- - node-biginteger
- - buffer-type
- - treekill
- - urlencode
- - copy-to
- - js-to-java
- - auto-correct
- - mdit
- - cov
- - binpack.js
- - digest-header
- - show-methods
- - restful-wrap
- - mm
- - default-user-agent
- - back-to-thunk
- - speeds
- - sqlstring
- - connect-rt
- - weibo
- - formstream
- - rid
- - bugfree
  - interceptor
- - weibo-mid
- - parameter
- - address
- - microsecond
- - cache-dns
+ - jscover
+ - java.io
+ - js-to-java
+ - jsonp-body
+ - loading
+ - mm
+ - mdit
  - mredis
- - var-style
- - qnfs
+ - metaweblog
+ - microsecond
+ - mini-logger
+ - logfilestream
+ - nab
  - ndir
+ - node-patch
+ - node-biginteger
+ - node-murmurhash
+ - onehost
+ - optimized
+ - pedding
+ - parameter
+ - printable
+ - phantomtest
+ - qn
+ - qnfs
+ - rid
+ - restful-wrap
+ - restful-client
+ - refresh-config
  - response-patch
  - response-cookie
+ - speeds
+ - sdk-base
+ - sqlstring
+ - show-methods
  - safe-redirect
- - onehost
- - node-patch
+ - treekill
+ - thunkify-wrap
+ - urllib
+ - utility
+ - urllib-sync
+ - userauth
+ - vmto
+ - var-style
+ - wt
+ - weibo
  - webcache
- - jscover
- - forwards
- - buffer-concat
- - cutter
- - filestore
- - printable
- - nab
- - metaweblog
+ - webcamera
+ - weibo-mid
+ - urlencode
+ - zookeeper-watcher
 
 # list of maintainers, this won't be sorted
 maintainers:
@@ -136,6 +139,34 @@ maintainers:
    twitter: popomore
    gittip:  popomore
    email:   sakura9515@gmail.com
+
+ - name:    JacksonTian Tian
+   github:  JacksonTian
+   npm:     jacksontian
+   twitter: JacksonTian
+   gittip:  JacksonTian
+   email:   shyvo1987@gmail.com
+
+ - name:    alsotang
+   github:  alsotang
+   npm:     alsotang
+   twitter: alsotang
+   gittip:  alsotang
+   email:   alsotang@gmail.com
+
+ - name:    fish
+   github:  fishbar
+   npm:     fishbar
+   twitter: fishbar
+   gittip:  fishbar
+   email:   zhengxinlin@gmail.com
+
+ - name:    haoxin
+   github:  coderhaoxin
+   npm:     coderhaoxin
+   twitter: coderhaoxin
+   gittip:  coderhaoxin
+   email:   coderhaoxin@outlook.com
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
