@@ -37,6 +37,7 @@ projects:
  - dotfile-config
  - default-user-agent
  - emoji
+ - enable
  - error-formatter
  - forwards
  - filestore
@@ -108,7 +109,7 @@ maintainers:
  - name:    fengmk2
    github:  fengmk2   # github account, required: we link to it
    npm:     fengmk2   # npm account, required to determine lead maintainer
-   twitter: fengmk2 # twitter account, optional
+   twitter: fengmk2   # twitter account, optional
    gittip:  fengmk2   # gittub badge, optional
    email:   fengmk2@gmail.com
 

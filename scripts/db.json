@@ -142,6 +142,11 @@
       "maintainer": "fengmk2",
       "node": "0.8"
     },
+    "enable": {
+      "description": "Detect es6 features enable or not.",
+      "maintainer": "fengmk2",
+      "node": "0.8"
+    },
     "error-formatter": {
       "description": "format an error into string / json for log",
       "maintainer": "dead_horse",
